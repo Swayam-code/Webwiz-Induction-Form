@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Induction Form Webwiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="description-box">
+    <div class="header-box">
+      <h2><b>WEB-WIZ</b></h2> 
+    </div>
+    <div class="content-box">
+      <p>Nothing is perfect,but your website can be. <br> <br>
+        We at WebWiz, aspire to meet all your web development needs at your fingertips.We take pride in not just being able to deliver quality work before deadlines but also in going the extra mile for curating your personalized website wherever and whenever there is scope.
+      </p>
+    </div>
+  </div>
+
+  <nav>
+    <div class="logo">
+      <img src="https://webwiznitr.netlify.app/static/media/logo.cd0dd8f3.ico" alt="Webwiz logo">
+      <img src="download.png" alt="Nit Rourkela Logo" class="hide-bg">
+    </div>
+    <ul class="nav-links">
+      <li><b><a href="#">Home</a></b></li>
+      <li><b><a href="#">About</a></b></li>
+      <li><b><a href="#">Contact</a></b></li>
+    </ul>
+
+  </nav>
+  <main>
+    <form id="induction-form">
+      <h1><b>Induction Form</b></h1>
+      <div class="form-group">
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <div class="radio-group">
+          <label><input type="radio" name="gender" value="male">Male</label>
+          <label><input type="radio" name="gender" value="female">Female</label>
+          <label><input type="radio" name="gender" value="other">Other</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="institute-email">Institute Email:</label>
+        <input type="email" id="institute-email" name="institute-email" required>
+      </div>
+      <div class="form-group">
+        <label for="roll-number">Roll Number:</label>
+        <input type="text" id="roll-number" name="roll-number" required>
+      </div>
+      <div class="form-group">
+        <label for="phone-number">Phone Number:</label>
+        <input type="tel" id="phone-number" name="phone-number" required>
+      </div>
+      <div class="form-group">
+        <label for="branch">Branch:</label>
+        <select id="branch" name="branch" required>
+          <option value="">Select Branch</option>
+
+          <option value="bm">Bio Medical Engineering</option>
+          <option value="bt">Bio Technology</option>
+          <option value="cr">Ceramic Engineering</option>
+          <option value="ch">Chemical Engineering</option>
+          <option value="ce">Civil Engineering</option>
+          <option value="cs">Computer Science and Engineering</option>
+          <option value="ee">Electrical Engineering</option>
+          <option value="ec">Electronics and Communication Engineering</option>
+          <option value="ei">Electronics and Instrumentation Engineering</option>
+          <option value="fp">Food Process Engineering</option>
+          <option value="id">Industrial Design</option>
+          <option value="me">Mechanical Engineering</option>
+          <option value="mm">Metallurgical and Materials Engineering</option>
+          <option value="mn">Mining Engineering</option>
+
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="field-of-interest">Field of Interest:</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="field-of-interest" value="tech">Technical</label>
+          <label><input type="checkbox" name="field-of-interest" value="design">Design</label>
+          <label><input type="checkbox" name="field-of-interest" value="management">Management</label>
+        </div>
+      </div>
+      <div id="id5"><button type="submit">Submit</button></div>
+    </form>
+  </main>
+
+  <footer>
+    <div id="id6">
+      <p>&copy; 2023 Webwiz. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
